@@ -1,5 +1,10 @@
 body{
 	background: #49274A;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+	cursor: pointer;
 }
 
 section{
@@ -17,9 +22,9 @@ section{
 }
 .logo{
 	margin-left: 30px;
-	color: white;
+	/* color: white; */
 	font-family: "Bauhaus 93";
-	font-size: 15px;
+	/* font-size: 15px; */
 }
 .logo h1{
 	color: #f8eee7;
@@ -161,12 +166,14 @@ input{
 	width: 210px;
 	margin-left: 10px;
 	margin-top: 7px;
+	padding: 5px;
 	color: #49274A;
 	
 }
 
 ::placeholder{
 	color: #49274A;
+	opacity: 0.7;
 }
 
 .btn{
@@ -224,7 +231,6 @@ input{
 	color: #f8eee7;
 	margin-left: 0px;
 	font-weight: bolder;
-	argin-top: -60px;
 }
 
 .btnv:hover{
@@ -387,12 +393,18 @@ p {
 
 /* blog section ends */
 /* footer starts */
-.footer{
+footer{
 	background-color: #94618E;
-	margin: 0;
+	padding: 10px;
+	/* margin: 0;
 	border: 0;
 	outline: 0;
 	left: 0;
-	bottom: 0;
+	bottom: 0; */
+}
+
+footer h1 {
+	width: fit-content;
+	margin: 0px auto;
 }
 /* footer ends */

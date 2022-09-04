@@ -8,12 +8,12 @@ signup.addEventListener("click",()=>{
     movebtn.classList.add("rightbtn");
     signinjs.classList.remove("signinform");
     signupjs.classList.add("signupform");
-    movebtn.innerHTML = "signup";
+    movebtn.innerHTML = "Register";
 }) 
 
 signin.addEventListener("click",()=>{
     movebtn.classList.remove("rightbtn");
     signinjs.classList.add("signinform");
     signupjs.classList.remove("signupform");
-    movebtn.innerHTML = "signin";
+    movebtn.innerHTML = "Login";
 }) 
