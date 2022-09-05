@@ -50,7 +50,7 @@ input[type=text]{
     background-color: #4B506E;
     outline: none;
     border: none;
-    color: #1A2134;
+    color: white;
 }
 
 input[type=number]{

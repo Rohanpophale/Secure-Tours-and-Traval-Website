@@ -26,18 +26,21 @@ section{
 	font-family: "Bauhaus 93";
 	/* font-size: 15px; */
 }
+
+.logo a {
+	text-decoration: none;
+}
 .logo h1{
 	color: #f8eee7;
 }
 
 .nav{
 	margin-left: 30px;
-
 }
 
 .nav a{
 	text-decoration: none;
-	color: #49274A;
+	color: #f8eee7;
 	transition: 0.3s ease;
 	margin-left: 50px;
 	font-family: Berlin Sans FB Demi;
